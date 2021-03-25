@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang='ja' ><meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+
+
+<title>研究 | Takanobu Amano @ U-Tokyo</title>
+<link rel="stylesheet" href="https://amanotk.github.io/css/eureka.min.css">
+<script defer src="https://amanotk.github.io/js/eureka.min.js"></script>
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload"
+  href="https://fonts.googleapis.com/css2?family=Lora:wght@400;600;700&family=Noto+Serif+SC:wght@400;600;700&display=swap"
+  as="style" onload="this.onload=null;this.rel='stylesheet'">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.1.0/build/styles/solarized-light.min.css"
+   media="print"
+  onload="this.media='all';this.onload=null" crossorigin>
+<script defer src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.1.0/build/highlight.min.js"
+   crossorigin></script>
+
+  <script defer src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.1.0/build/languages/dart.min.js"
+     crossorigin></script>
+
+<script defer src="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.14.0/js/all.min.js"
+   integrity="sha256-uNYoXefWRqv&#43;PsIF/OflNmwtKM4lStn9yrz2gVl6ymo="  crossorigin></script>
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css"
+   integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3&#43;Aro6EYUG4&#43;cU&#43;KJWu/X"  media="print"
+  onload="this.media='all';this.onload=null" crossorigin>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.js" 
+  integrity="sha384-g7c&#43;Jr9ZivxKLnZTDUhnkOnsh30B4H0rpLUpJ4jAIKs4fnJI&#43;sEnkvrMWph2EDg4"  crossorigin></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/contrib/auto-render.min.js"
+   integrity="sha384-mll67QQFJfxn0IYznZYonOWZ644AWYC&#43;Pt2cHqMaRhXVrursRwvLnLaebdGIlYNa"  crossorigin></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    renderMathInElement(document.body, {
+      delimiters: [
+        { left: "$$", right: "$$", display: true },
+        { left: "$", right: "$", display: false },
+        { left: "\\(", right: "\\)", display: false },
+        { left: "\\[", right: "\\]", display: true }
+      ],
+    });
+  });
+</script>
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400&family=Quicksand:wght@600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/css/custom.css">
+
+<link rel="icon" type="image/png" sizes="32x32" href="https://amanotk.github.io/images/icon_hu39a8536823024502b870e983f9276a95_3733_32x32_fill_box_center_2.png">
+<link rel="apple-touch-icon" sizes="180x180" href="https://amanotk.github.io/images/icon_hu39a8536823024502b870e983f9276a95_3733_180x180_fill_box_center_2.png">
+
+<meta name="description"
+  content="空っぽのように思われる宇宙空間も実は希薄なガスで満たされています. 我々の銀河の平均数密度は1個/ccほどで, 地上では到底達成できないほどの高度な真空で">
+
+
+
+<meta property="og:title" content="研究 | Takanobu Amano @ U-Tokyo" />
+<meta property="og:type" content="website" />
+
+
+<meta property="og:image" content="https://amanotk.github.io/images/icon.png">
+
+
+<meta property="og:url" content="https://amanotk.github.io/ja/docs/" />
+
+
+
+
+
+<meta property="og:description" content="Eureka is a elegant and powerful theme for Hugo." />
+
+
+
+
+
+<meta property="og:locale" content="ja" />
+
+
+
+
+<meta property="og:site_name" content="Takanobu Amano @ U-Tokyo" />
+
+
+
+
+
+
+
+
+<meta property="article:section" content="docs" />
+
+
+<link rel="alternate" type="application/rss+xml" href="https://amanotk.github.io/ja/docs/index.xml" title="Takanobu Amano @ U-Tokyo" />
+
+<body class="flex flex-col min-h-screen">
+  <header class="fixed flex items-center w-full min-h-16 pl-scrollbar z-50 bg-secondary-bg shadow-sm">
+    <div class="w-full max-w-screen-xl mx-auto"><script>
+    let storageColorScheme = localStorage.getItem("lightDarkMode")
+    if (((storageColorScheme == 'Auto' || storageColorScheme == null) && window.matchMedia("(prefers-color-scheme: dark)").matches) || storageColorScheme == "Dark") {
+        document.getElementsByTagName('html')[0].classList.add('dark')
+    }
+</script>
+<nav class="flex items-center justify-between flex-wrap px-4 py-4 md:py-0">
+    <a href="/ja/" class="mr-6 text-primary-text text-xl font-bold">Takanobu Amano @ U-Tokyo</a>
+    <button id="navbar-btn" class="md:hidden flex items-center px-3 py-2" aria-label="Open Navbar">
+        <i class="fas fa-bars"></i>
+    </button>
+
+    <div id="target"
+        class="hidden block md:flex md:flex-grow md:justify-between md:items-center w-full md:w-auto text-primary-text z-20">
+        <div class="md:flex md:h-16 text-sm md:flex-grow pb-4 md:pb-0 border-b md:border-b-0">
+            <a href="/ja/" class="block mt-4 md:inline-block md:mt-0 md:h-(16-4px) md:leading-(16-4px) box-border md:border-t-2 md:border-b-2  selected-menu-item  mr-4">ホーム</a>
+            <a href="/ja/#resume" class="block mt-4 md:inline-block md:mt-0 md:h-(16-4px) md:leading-(16-4px) box-border md:border-t-2 md:border-b-2  border-transparent  mr-4">略歴</a>
+            <a href="/ja/docs/" class="block mt-4 md:inline-block md:mt-0 md:h-(16-4px) md:leading-(16-4px) box-border md:border-t-2 md:border-b-2  selected-menu-item  mr-4">研究</a>
+        </div>
+
+        <div class="flex">
+            <div class="relative pt-4 md:pt-0">
+                <div class="cursor-pointer hover:text-eureka" id="lightDarkMode">
+                    <i class="fas fa-adjust"></i>
+                </div>
+                <div class="fixed hidden inset-0 opacity-0 h-full w-full cursor-default z-30" id="is-open">
+                </div>
+                <div class="absolute flex flex-col left-0 md:left-auto right-auto md:right-0 hidden bg-secondary-bg w-48 rounded py-2 border border-tertiary-bg cursor-pointer z-40"
+                    id='lightDarkOptions'>
+                    <span class="px-4 py-1 hover:text-eureka" name="Light">Light</span>
+                    <span class="px-4 py-1 hover:text-eureka" name="Dark">Dark</span>
+                    <span class="px-4 py-1 hover:text-eureka" name="Auto">Auto</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="fixed hidden inset-0 opacity-0 h-full w-full cursor-default z-0" id="is-open-mobile">
+    </div>
+
+</nav>
+<script>
+    let element = document.getElementById('lightDarkMode')
+    if (storageColorScheme == null || storageColorScheme == 'Auto') {
+        document.addEventListener('DOMContentLoaded', () => {
+            switchMode('Auto')
+        })
+    } else if (storageColorScheme == "Light") {
+        element.firstElementChild.classList.remove('fa-adjust')
+        element.firstElementChild.setAttribute("data-icon", 'sun')
+        element.firstElementChild.classList.add('fa-sun')
+    } else if (storageColorScheme == "Dark") {
+        element.firstElementChild.classList.remove('fa-adjust')
+        element.firstElementChild.setAttribute("data-icon", 'moon')
+        element.firstElementChild.classList.add('fa-moon')
+    }
+
+    document.addEventListener('DOMContentLoaded', () => {
+        getcolorscheme();
+        switchBurger();
+    });
+</script>
+</div>
+  </header>
+  <main class="flex-grow pt-16">
+    <div class="pl-scrollbar">
+      <div class="w-full max-w-screen-xl lg:px-4 xl:px-8 mx-auto">
+<article class="mx-6 my-8">
+  <h1 class="font-bold text-3xl text-primary-text">研究</h1>
+  
+  <div class="content">
+      <p>空っぽのように思われる宇宙空間も実は希薄なガスで満たされています. 我々の銀河の平均数密度は1個/ccほどで, 地上では到底達成できないほどの高度な真空ですが, それでも巨視的には流体として振る舞うと考えられています. 宇宙空間のガスは様々な要因によって電離されたプラズマ状態にあると思われており, 磁場が非常に重要な役割を果たします. 例えば高緯度地方で見られるオーロラは太陽から吹き付ける太陽風プラズマの荷電粒子が何らかの要因で地球の双極子型の磁力線に添って加速され, 地球大気に降り注ぐことで光ると考えられています. また, 遠く離れた天体プラズマにおいても興味深い現象が多く観測されています. 例えば以下に示した超新星残骸SN1006からの高エネルギー放射を説明するにはプラズマ物理の理解が必須のものとなっています.</p>
+<figure class="center">
+    <img src="./img/sn1006.jpg" width="500px"/> <figcaption>
+            <h4>超新星残骸 SN1006 (NASAのChandra衛星によるX線画像</h4>
+        </figcaption>
+</figure>
+
+<p>私の専門とする宇宙空間物理学とはこのように宇宙に普遍的に存在するプラズマ現象の解明を目指しています. 一口に宇宙プラズマと言っても対象は多岐に渡りますが, 私はその中でも素過程に着目して主に理論的な側面から研究を行っています．研究のアプローチには数値シミュレーションを用いることが多いですが，理論や観測データの解析なども行います．ただし，アプローチは何であっても，根幹にあるのは素過程に関する理論的な興味です．</p>
+<p>現在特に力を入れているのは以下のようなテーマです．</p>
+<ul>
+<li><a href="#%E7%84%A1%E8%A1%9D%E7%AA%81%E8%A1%9D%E6%92%83%E6%B3%A2">無衝突衝撃波</a></li>
+<li><a href="#%E7%9B%B8%E5%AF%BE%E8%AB%96%E7%9A%84%E3%83%97%E3%83%A9%E3%82%BA%E3%83%9E">相対論的プラズマ</a></li>
+<li><a href="#%E6%95%B0%E5%80%A4%E3%82%B7%E3%83%9F%E3%83%A5%E3%83%AC%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E6%89%8B%E6%B3%95%E3%81%AE%E9%96%8B%E7%99%BA">数値シミュレーション手法の開発</a></li>
+</ul>
+<h2 id="無衝突衝撃波">無衝突衝撃波</h2>
+<p>宇宙空間には温度で特徴付けられる熱的エネルギーとは桁違いに高いエネルギーを持った荷電粒子が存在し, <strong>宇宙線</strong>と呼ばれています. このように熱平衡分布から大きく外れた宇宙線の加速メカニズムは宇宙物理学の最大の謎の一つです. 宇宙線の中でも比較的低エネルギーの成分(約 $10^{15}$ eV以下)については我々の銀河系内で発生する超新星爆発によって加速されたと考えられており, 実際に超新星爆発によって生じる衝撃波(超新星残骸衝撃波)で高エネルギー電子が生成されている証拠がいくつも得られています. 宇宙線を生成する加速メカニズムは大雑把にはFermi加速と呼ばれるものだと考えられていますが, その詳細については未だ未解明の点も多く残されています.</p>
+<p>超新星残骸衝撃波のような高温・希薄なプラズマ中に発生する衝撃波は荷電粒子の平均自由行程が系のサイズに比べて十分大きな<strong>無衝突衝撃波</strong>になっていると考えられています. 実際にパラメータは多少異なるものの, 地球周辺で発生する無衝突衝撃波が人工衛星の直接観測によって捉えられており, 衝撃波近傍で高エネルギー粒子が生成されることも分かっています. 無衝突衝撃波は高度に非線形なプラズマダイナミクスの結果として形成されるもので, 非常に複雑な振る舞いを示しますが, その理解が宇宙線の加速メカニズムの解明には必須となっています. 私は数値シミュレーションや理論の立場からこの問題に取り組んでおり, 無衝突衝撃波の物理を理解すると共に, 粒子加速メカニズムを明らかにすることを目指しています.</p>
+<figure class="center">
+    <img src="./img/shock.png" width="500px"/> <figcaption>
+            <h4>無衝突衝撃波の2次元粒子シミュレーション結果</h4>
+        </figcaption>
+</figure>
+
+<p>上図は運動論的効果を考慮した無衝突衝撃波の2次元粒子(PIC)シミュレーション結果です. このように無衝突衝撃波は複雑な内部構造を持ち, 様々なプラズマ波動が励起されます. この例では大振幅静電波動が不安定性によって励起され, 一部の電子を非常に効率よく加速することが分かりました.</p>
+<p>また，2015年に打ち上げられたNASAのMMS衛星による観測にも興味を持っています．これまで理論や数値シミュレーションでしか調べることができなかった物理素過程を超高時間分解能の観測によって直接検証できる可能性が出てきたためです．最近は理論的な視点から緻密な観測データの解析も進めています．</p>
+<h2 id="相対論的プラズマ">相対論的プラズマ</h2>
+<p>ブラックホールや中性子星などの高密度天体からは非常にエネルギーの高いプラズマ流が吹き出しています. そのエネルギーは静止質量のエネルギーを遥かに超えるものであり, 相対論的な取り扱いが必須となっています. 私が特に興味を持っているのは<strong>パルサー</strong>とよばれる高速回転する中性子星です. パルサーは極度に大きな磁場を持ち, また高速回転していることから遠心力によって<strong>パルサー風</strong>と呼ばれる相対論的なプラズマ流を作ると考えられています. このパルサー風はやがて衝撃波(終端衝撃波)を形成し, その下流側が<strong>パルサー星雲</strong>として輝きます. パルサー風を駆動しているのは磁場のエネルギーに他なりませんが, 星雲として輝くためには磁場のエネルギーを何らかのメカニズムによってプラズマのエネルギーに変換しなければなりません. この非常に効率の良いエネルギー変換メカニズムが現在でもよく理解されておらず, 古くから<strong>シグマ問題</strong>と呼ばれて研究されてきました. 私自身はこのシグマ問題を始めとして, 相対論的プラズマ中の素過程に興味を持って研究を進めています.</p>
+<figure class="center">
+    <img src="./img/relativistic.png" width="500px"/> <figcaption>
+            <h4>パルサー風終端衝撃波の相対論的2流体シミュレーション</h4>
+        </figcaption>
+</figure>
+
+<p>上図は相対論的2流体シミュレーションによってパルサー風の終端衝撃波を模擬した結果です. この計算によって上流(左側)で大きな値を持っていたPoynting flux(電磁場のエネルギー流束; 下のパネル)が衝撃波との相互作用によって非常に効率よく散逸され, プラズマのエネルギーに変換されることが分かりました.</p>
+<h2 id="数値シミュレーション手法の開発">数値シミュレーション手法の開発</h2>
+<p>現代科学では計算機シミュレーションは理論と実験に並んで研究の第3の手法とみなされています. 新しい物理を理解(発見)するには新しい実験(観測)が必要であるのと同様に, 計算機シミュレーションでも新しい手法の開発は非常に重要です. 現在の計算機を持ってしても, 必要な効果を全て考慮に入れた十分な時空間解像度を持つ数値シミュレーションというのは到底不可能ですが, 新しい手法の開発によって, この不可能を可能にすることが出来るかもしれません.</p>
+<p>数値シミュレーション手法の開発と言うと, 与えられた物理モデルの高効率計算手法の手法の開発という観点も重要ですが, 私は既存モデルへ如何に新しい物理を組み込むか, または必要な物理を損なわずに如何にモデルを簡易化するか, といった物理的な観点からも研究を行っています.</p>
+<p>例えば2016年に打ち上げられたJAXAの「あらせ」衛星が観測を続けている地球磁気圏ではリングカレントと呼ばれる高エネルギーイオンが宇宙空間に大電流を流し，磁気嵐と呼ばれる現象が起こります．リングカレントのダイナミクスは既存のシミュレーションモデルでは正確に扱うことが難しいため，新たなシミュレーションモデルの構築を行っています．下図はこのモデルによるシミュレーション結果です. 既存のモデルでは捉えられなかった電磁流体波動の効果を取り入れることに成功しています.</p>
+<figure class="center">
+    <img src="./img/ringcurrent.png" width="500px"/> <figcaption>
+            <h4>リングカレントのシミュレーション</h4>
+        </figcaption>
+</figure>
+
+<p>その他にも相対論プラズマ，非相対論的プラズマ，運動論的手法，流体的手法など対象とする手法は多岐に渡ります．</p>
+
+  </div>
+  
+</article>
+<div class="bg-secondary-bg rounded px-6">
+  <div class="overflow-hidden divide-y">
+  
+</div>
+
+
+</div>
+
+
+
+
+      </div>
+    </div>
+    
+  </main>
+  <footer class="pl-scrollbar">
+    <div class="w-full max-w-screen-xl mx-auto"><div class="text-center p-6 pin-b">
+    <p class="text-sm text-tertiary-text">&copy; 2021 Takanobu Amano
+ &middot;  Powered by the <a href="https://github.com/wangchucheng/hugo-eureka" class="hover:text-eureka">Eureka</a> theme for <a href="https://gohugo.io" class="hover:text-eureka">Hugo</a></p>
+</div></div>
+  </footer>
+</body>
+
+</html>

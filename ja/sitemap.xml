@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://amanotk.github.io/ja/authors/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://amanotk.github.io/en/authors/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://amanotk.github.io/ja/authors/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://amanotk.github.io/ja/categories/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://amanotk.github.io/en/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://amanotk.github.io/ja/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://amanotk.github.io/ja/series/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://amanotk.github.io/en/series/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://amanotk.github.io/ja/series/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://amanotk.github.io/ja/tags/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://amanotk.github.io/en/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://amanotk.github.io/ja/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://amanotk.github.io/ja/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://amanotk.github.io/en/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://amanotk.github.io/ja/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://amanotk.github.io/ja/docs/</loc>
+  </url>
+  
+</urlset>
