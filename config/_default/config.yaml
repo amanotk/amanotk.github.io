@@ -1,0 +1,43 @@
+baseURL: https://amanotk.github.io/
+title: Takanobu Amano @ U-Tokyo
+
+# Comment when installing using Hugo Modules
+#theme: eureka
+# Uncomment when installing using Hugo Modules
+theme: github.com/wangchucheng/hugo-eureka
+
+paginate: 3
+copyright: >
+  &copy; 2021 Takanobu Amano
+enableEmoji: true
+enableGitInfo: false
+summaryLength: 75
+
+defaultContentLanguage: en
+hasCJKLanguage: true # Set `true` for Chinese/Japanese/Korean.
+defaultContentLanguageInSubdir: true
+
+# Uncomment for google analytics
+# googleAnalytics: UA-123-45
+
+markup:
+  # Do not modify markup.highlight
+  highlight:
+    codeFences: false
+    noClasses: false
+  tableOfContents:
+    startLevel: 2
+    endLevel: 6
+    ordered: false
+  goldmark:
+    renderer:
+      unsafe: true
+
+taxonomies:
+  category: categories
+  tag: tags
+  series: series
+  author: authors
+
+build:
+  useResourceCacheWhen: always
