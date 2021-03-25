@@ -10,6 +10,16 @@
 して．https://localhost:1313/ にアクセスする．  
 サーバーがファイルの更新を自動でモニタしてくれる．
 
+## public更新
+CVを更新した場合は先にCVでMakeしてからpublicを更新する．
+
+```bash
+  $ cd CV
+  $ make
+  $ cd ..
+  $ hugo -D
+```
+
 ## githubにpush
 ローカルでcommitした更新は以下のようにgithubにpushする．
 
