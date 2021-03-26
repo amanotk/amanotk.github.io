@@ -14,7 +14,7 @@ experiences:
     dates: 'Mar. 2005'
     location: Japan
 
-  - title: GS degree
+  - title: BS degree
     organization:
       name: Department of Earth and Planetary Physics, School of Science, The University of Tokyo
     dates: 'Mar. 2003'
