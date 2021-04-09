@@ -42,7 +42,7 @@ widget:
 
 ## About Me
 I am an associate professor at [Department of Earth and Planetary Science][2], [Graduate School of Science][1], the Univesity of Tokyo.
-Please refer the list of of publicaions on [Google Scholar][4], [Mendeley Profile][5], or in [CV][6] (PDF, including list of publications) for details of my research activity.
+Please refer the list of of publicaions on [Google Scholar][4] or in [CV][6] (PDF, including list of publications) for details of my research activity.
 
 ## Research Area
 - Space Physics
