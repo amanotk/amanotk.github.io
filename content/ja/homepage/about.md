@@ -70,7 +70,7 @@ widget:
 （このような文章を公開されている方々に感謝致します．）
 
 - [東大・天文学専攻の戸谷さん](http://groups.astron.s.u-tokyo.ac.jp/totani/kokoroe.html)
-- [大阪大学の富田さん](http://astro-osaka.jp/tomida/student.html)
+- [東北大学の富田さん](https://www.astr.tohoku.ac.jp/~tomida/student.html)
 
 ### 発表の心得
 以下のページに研究発表で気をつけるべき点がとても良くまとまっています．  
