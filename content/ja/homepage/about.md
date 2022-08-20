@@ -87,4 +87,4 @@ widget:
 [4]: https://scholar.google.co.jp/citations?hl=ja&user=o23rFB8AAAAJ&view_op=list_works&sortby=pubdate"
 [5]: https://www.mendeley.com/profiles/takanobu-amano/
 [6]: ../files/CV-Amano.pdf
-[7]: http://www.eps.s.u-tokyo.ac.jp/admission/index.html
+[7]: https://www.eps.s.u-tokyo.ac.jp/graduateadmission/

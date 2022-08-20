@@ -2,6 +2,11 @@
 title: 受賞等
 draft: false
 experiences:
+  - title: 田中舘賞
+    organization:
+      name: 地球電磁気・地球惑星圏学会(SGEPSS)
+    dates: '2022年5月'
+
   - title: Young Researcher Award (under 40 yrs. old)
     organization:
       name: Association of Asia Pacific Physical Societies, Division of Plasma Physics (AAPPS-DPP)

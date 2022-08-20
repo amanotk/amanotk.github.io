@@ -2,6 +2,11 @@
 title: Award
 draft: false
 experiences:
+  - title: Tanakadate Award
+    organization:
+      name: Society of Geomagnetism and Earth, Planetary and Space Sciences (SGEPSS)
+    dates: 'May 2022'
+
   - title: Young Researcher Award (under 40 yrs. old)
     organization:
       name: Association of Asia Pacific Physical Societies, Division of Plasma Physics (AAPPS-DPP)
