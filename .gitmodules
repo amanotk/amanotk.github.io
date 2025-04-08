@@ -1,6 +1,0 @@
-[submodule "CV"]
-	path = CV
-	url = git@github.com:amanotk/CV.git
-[submodule "public"]
-	path = public
-	url = git@github.com:amanotk/public.git
