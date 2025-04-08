@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Takanobu Amano @ U-Tokyo</title>
+    <link>http://localhost:1313/en/home/</link>
+    <description>Recent content on Takanobu Amano @ U-Tokyo</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>&amp;copy; 2021 Takanobu Amano
+</copyright>
+    <atom:link href="http://localhost:1313/en/home/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Takanobu Amano</title>
+      <link>http://localhost:1313/en/home/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/home/about/</guid>
+      <description>&lt;h2 id=&#34;about-me&#34;&gt;About Me&lt;/h2&gt;&#xA;&lt;p&gt;I am an associate professor at &lt;a href=&#34;http://www.eps.s.u-tokyo.ac.jp/index-en.html&#34;&gt;Department of Earth and Planetary Science&lt;/a&gt;, &lt;a href=&#34;https://www.s.u-tokyo.ac.jp/en/&#34;&gt;Graduate School of Science&lt;/a&gt;, the Univesity of Tokyo.&#xA;Please refer the list of of publicaions on &lt;a href=&#34;https://scholar.google.co.jp/citations?hl=ja&amp;amp;user=o23rFB8AAAAJ&amp;amp;view_op=list_works&amp;amp;sortby=pubdate%22&#34;&gt;Google Scholar&lt;/a&gt; or in &lt;a href=&#34;../files/CV-Amano.pdf&#34;&gt;CV&lt;/a&gt; (PDF, including list of publications) for details of my research activity.&lt;/p&gt;&#xA;&lt;h2 id=&#34;research-area&#34;&gt;Research Area&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Space Physics&lt;/li&gt;&#xA;&lt;li&gt;Plasma Astrophysics&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;research-interests&#34;&gt;Research Interests&lt;/h2&gt;&#xA;&lt;p&gt;Takanobu Amano is interested in theoretical aspects of space and astrophysical plasma phenomena. His major research interests include physics of collisionless shocks (both non-relativistic and relativistic regimes), high-energy particle acceleration and transport, linear and nonlinear theory for kinetic plasma instabilities, and numerical techniques for advanced kinetic/fluid plasma simulations.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Appointment</title>
+      <link>http://localhost:1313/en/home/appointment/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/home/appointment/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Education</title>
+      <link>http://localhost:1313/en/home/education/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/home/education/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Award</title>
+      <link>http://localhost:1313/en/home/award/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/home/award/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
