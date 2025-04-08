@@ -1,0 +1,6 @@
+$latex = 'platex';
+$bibtex = 'pbibtex';
+$dvipdf = 'dvipdfmx -f noto.map %O -o %D %S';
+$makeindex = 'mendex %O -o %D %S';
+$pdf_mode = 3;
+
