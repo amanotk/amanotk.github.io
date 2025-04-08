@@ -1,13 +1,10 @@
 en:
   languageCode: en
   languageName: English
-  # Uncomment for multilingual sites, and move the default content into corresponding sub-folder.
   contentDir: content/en
-
 ja:
   languageCode: ja
   languageName: 日本語
-  # Uncomment for multilingual sites, and move the default content into corresponding sub-folder.
   contentDir: content/ja
 
 # Uncomment for multilingual sites, and customize the following config.

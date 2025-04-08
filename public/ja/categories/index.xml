@@ -4,9 +4,10 @@
     <title>Categories on Takanobu Amano @ U-Tokyo</title>
     <link>https://amanotk.github.io/ja/categories/</link>
     <description>Recent content in Categories on Takanobu Amano @ U-Tokyo</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>ja</language>
     <copyright>&amp;copy; 2021 Takanobu Amano
-</copyright><atom:link href="https://amanotk.github.io/ja/categories/index.xml" rel="self" type="application/rss+xml" />
+</copyright>
+    <atom:link href="https://amanotk.github.io/ja/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

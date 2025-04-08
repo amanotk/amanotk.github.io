@@ -6,7 +6,6 @@ title: Takanobu Amano @ U-Tokyo
 # Uncomment when installing using Hugo Modules
 theme: github.com/wangchucheng/hugo-eureka
 
-paginate: 3
 copyright: >
   &copy; 2021 Takanobu Amano
 enableEmoji: true

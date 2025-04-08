@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Takanobu Amano @ U-Tokyo</title>
+    <link>http://localhost:1313/ja/home/</link>
+    <description>Recent content on Takanobu Amano @ U-Tokyo</description>
+    <generator>Hugo</generator>
+    <language>ja</language>
+    <copyright>&amp;copy; 2021 Takanobu Amano
+</copyright>
+    <atom:link href="http://localhost:1313/ja/home/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>天野 孝伸</title>
+      <link>http://localhost:1313/ja/home/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/ja/home/about/</guid>
+      <description>&lt;h2 id=&#34;このページついて&#34;&gt;このページついて&lt;/h2&gt;&#xA;&lt;p&gt;このページは東京大学 &lt;a href=&#34;https://www.s.u-tokyo.ac.jp/&#34;&gt;大学院理学系研究科&lt;/a&gt; &lt;a href=&#34;http://www.eps.s.u-tokyo.ac.jp/&#34;&gt;地球惑星科学専攻&lt;/a&gt; &lt;a href=&#34;http://www-space.eps.s.u-tokyo.ac.jp/&#34;&gt;宇宙惑星科学講座&lt;/a&gt; の准教授 天野孝伸のページです．&lt;br&gt;&#xA;私の過去の研究について詳細を知りたい奇特な方は&lt;a href=&#34;https://scholar.google.co.jp/citations?hl=ja&amp;amp;user=o23rFB8AAAAJ&amp;amp;view_op=list_works&amp;amp;sortby=pubdate%22&#34;&gt;Google Scholar&lt;/a&gt; または&lt;a href=&#34;../files/CV-Amano.pdf&#34;&gt;履歴書&lt;/a&gt; (英語PDF, 業績リスト含む)をご覧ください．&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>職歴</title>
+      <link>http://localhost:1313/ja/home/appointment/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/ja/home/appointment/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>学歴</title>
+      <link>http://localhost:1313/ja/home/education/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/ja/home/education/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>受賞等</title>
+      <link>http://localhost:1313/ja/home/award/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/ja/home/award/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

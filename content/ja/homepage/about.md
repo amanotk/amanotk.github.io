@@ -55,7 +55,7 @@ widget:
 - 大学院(地球惑星科学専攻) 宇宙プラズマ物理学I  
 - 大学院(物理学専攻) プラズマ物理学特論II  
 - 学部(地球惑星物理学科) 地球物理数値解析  
-  - [講義資料](https://github.com/amanotk/numerical-geophysics)
+  - [講義資料](https://amanotk.github.io/numerical-geophysics/)
 - 学部(地球惑星物理学科) 宇宙空間物理学II  
 - 学部(地球惑星物理学科) 地球惑星物理学演習  
   - [Fortran演習資料(HTML版)](https://amanotk.github.io/fortran-resume-public/)

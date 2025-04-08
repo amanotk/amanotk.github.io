@@ -4,6 +4,7 @@
 
 
 <title>Takanobu Amano @ U-Tokyo</title>
+
 <link rel="stylesheet" href="https://amanotk.github.io/css/eureka.min.css">
 <script defer src="https://amanotk.github.io/js/eureka.min.js"></script>
 
@@ -44,21 +45,13 @@
     });
   });
 </script>
-<link rel="preconnect" href="https://www.google-analytics.com" crossorigin>
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-99010794-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag() { dataLayer.push(arguments); }
-  gtag('js', new Date());
-  gtag('config', 'UA-99010794-1');
-</script>
 
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400&family=Quicksand:wght@600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/css/custom.css">
 
-<link rel="icon" type="image/png" sizes="32x32" href="https://amanotk.github.io/images/icon_hu39a8536823024502b870e983f9276a95_3733_32x32_fill_box_center_3.png">
-<link rel="apple-touch-icon" sizes="180x180" href="https://amanotk.github.io/images/icon_hu39a8536823024502b870e983f9276a95_3733_180x180_fill_box_center_3.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://amanotk.github.io/images/icon_hu_e6fa9277777cf082.png">
+<link rel="apple-touch-icon" sizes="180x180" href="https://amanotk.github.io/images/icon_hu_d6645ccf4591734b.png">
 
 <meta name="description"
   content="Eureka is a elegant and powerful theme for Hugo.">
@@ -100,6 +93,10 @@
 
 
 <meta property="og:locale" content="en" />
+
+
+
+<meta property="og:locale:alternate" content="ja" />
 
 
 
@@ -153,6 +150,19 @@
                     <span class="px-4 py-1 hover:text-eureka" name="Auto">Auto</span>
                 </div>
             </div>
+            <div class="relative pt-4 pl-4 md:pt-0">
+                <div class="cursor-pointer hover:text-eureka" id="languageMode">
+                    <i class="fas fa-globe"></i>
+                    <span class="pl-1">English</span>
+                </div>
+                <div class="fixed hidden inset-0 opacity-0 h-full w-full cursor-default z-30" id="is-open-lang">
+                </div>
+                <div class="absolute flex flex-col left-0 md:left-auto right-auto md:right-0 hidden bg-secondary-bg w-48 rounded py-2 border border-tertiary-bg cursor-pointer z-40"
+                    id='languageOptions'>
+                    <a class="px-4 py-1 hover:text-eureka" href="https://amanotk.github.io/en/404.html">English</a>
+                    <a class="px-4 py-1 hover:text-eureka" href="https://amanotk.github.io/ja/404.html">日本語</a>
+                </div>
+            </div>
         </div>
     </div>
 
@@ -179,6 +189,7 @@
     document.addEventListener('DOMContentLoaded', () => {
         getcolorscheme();
         switchBurger();
+        switchLanguage()
     });
 </script>
 </div>
