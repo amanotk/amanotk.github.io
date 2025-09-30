@@ -57,6 +57,7 @@ widget:
 - 学部(地球惑星物理学科) 地球物理数値解析  
   - [講義資料](https://amanotk.github.io/numerical-geophysics/)
 - 学部(地球惑星物理学科) 宇宙空間物理学II  
+  - [講義資料](https://amanotk.github.io/spacephysics-ii/)
 - 学部(地球惑星物理学科) 地球惑星物理学演習  
   - [Fortran演習資料(HTML版)](https://amanotk.github.io/fortran-resume-public/)
   - [Python演習資料(HTML版)](https://amanotk.github.io/python-resume-public/)
