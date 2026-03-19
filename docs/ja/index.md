@@ -17,7 +17,7 @@
 
 ## このページについて { #about .profile-section }
 
-このページは東京大学 [大学院理学系研究科](https://www.s.u-tokyo.ac.jp/) [地球惑星科学専攻](http://www.eps.s.u-tokyo.ac.jp/) [宇宙惑星科学講座](http://www-space.eps.s.u-tokyo.ac.jp/) の准教授、天野孝伸のページです。
+このページは東京大学 [大学院理学系研究科](https://www.s.u-tokyo.ac.jp/) [地球惑星科学専攻](http://www.eps.s.u-tokyo.ac.jp/) [宇宙惑星科学講座](http://www-space.eps.s.u-tokyo.ac.jp/) の教授、天野孝伸のページです。
 
 私の過去の研究について詳細を知りたい方は [Google Scholar](https://scholar.google.co.jp/citations?hl=ja&user=o23rFB8AAAAJ&view_op=list_works&sortby=pubdate) または [履歴書](../assets/files/CV-Amano.pdf) をご覧ください。
 
@@ -34,9 +34,14 @@
 
 <ul class="timeline">
   <li>
+    <strong>教授</strong>
+    <span>東京大学大学院 理学系研究科 地球惑星科学専攻</span>
+    <span>2026年1月1日 - 現在</span>
+  </li>
+  <li>
     <strong>准教授</strong>
     <span>東京大学大学院 理学系研究科 地球惑星科学専攻</span>
-    <span>2016年8月1日 - 現在</span>
+    <span>2016年8月1日 - 2025年12月31日</span>
   </li>
   <li>
     <strong>助教</strong>

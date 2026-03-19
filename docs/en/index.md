@@ -17,7 +17,7 @@
 
 ## About { #about .profile-section }
 
-I am an associate professor at [Department of Earth and Planetary Science](http://www.eps.s.u-tokyo.ac.jp/index-en.html), [Graduate School of Science](https://www.s.u-tokyo.ac.jp/en/), The University of Tokyo.
+I am a professor at [Department of Earth and Planetary Science](http://www.eps.s.u-tokyo.ac.jp/index-en.html), [Graduate School of Science](https://www.s.u-tokyo.ac.jp/en/), The University of Tokyo.
 
 Please refer to [Google Scholar](https://scholar.google.co.jp/citations?hl=ja&user=o23rFB8AAAAJ&view_op=list_works&sortby=pubdate) or my [CV](../assets/files/CV-Amano.pdf) for details of my research activity.
 
@@ -34,9 +34,14 @@ Takanobu Amano is interested in theoretical aspects of space and astrophysical p
 
 <ul class="timeline">
   <li>
+    <strong>Professor</strong>
+    <span>Department of Earth and Planetary Science, Graduate School of Science, The University of Tokyo</span>
+    <span>Jan. 2026 - Present</span>
+  </li>
+  <li>
     <strong>Associate Professor</strong>
     <span>Department of Earth and Planetary Science, Graduate School of Science, The University of Tokyo</span>
-    <span>Aug. 2016 - Present</span>
+    <span>Aug. 2016 - Dec. 2025</span>
   </li>
   <li>
     <strong>Assistant Professor</strong>
