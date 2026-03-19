@@ -1,35 +1,40 @@
-# メモ
+# amanotk.github.io
 
-## プレビュー
-ローカルサーバーでプレビューするには
+MkDocs Material + `uv` で管理する個人サイトです。英語版をルート (`/`)、日本語版を `/ja/` に公開します。
 
-```bash
-  $ hugo server
-```
-
-して．https://localhost:1313/ にアクセスする．  
-サーバーがファイルの更新を自動でモニタしてくれる．
-
-## public更新
-CVを更新した場合は先にCVでMakeしてからpublicを更新する．
+## ローカルプレビュー
 
 ```bash
-  $ cd CV
-  $ make
-  $ cd ..
-  $ hugo -D
+uv sync
+uv run mkdocs serve
 ```
 
-## githubにpush
-ローカルでcommitした更新は以下のようにgithubにpushする．
+ブラウザで `http://127.0.0.1:8000/` を開いて確認します。
+
+## ビルド
 
 ```bash
-  $ git push
-  $ git submodule foreach git push
+uv run mkdocs build --strict
 ```
 
-## submodule
-submoduleがアップデートされた場合は別途commitが必要．
+生成物は `site/` に出力されます。`site/` は Git 管理しません。
 
-- public => 公開用
-- theme/academic => テーマ
+## CV の更新
+
+CV を更新する場合は先に `CV/` 側で PDF を作り、公開用ファイルを `docs/assets/files/CV-Amano.pdf` に反映します。
+
+```bash
+cd CV
+make
+```
+
+## デプロイ
+
+`main` ブランチへの push で GitHub Actions が `mkdocs build --strict` を実行し、その成果物を GitHub Pages へデプロイします。
+
+## ディレクトリ構成
+
+- `docs/en/`: 英語コンテンツ
+- `docs/ja/`: 日本語コンテンツ
+- `docs/assets/`: 画像や PDF などの共通アセット
+- `.github/workflows/pages.yml`: GitHub Pages デプロイ設定

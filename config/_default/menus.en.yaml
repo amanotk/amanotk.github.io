@@ -1,7 +1,0 @@
-main:
-  - name: Home
-    url: /en/
-    weight: 1
-  - name: Resume
-    url: '#resume'
-    weight: 2
