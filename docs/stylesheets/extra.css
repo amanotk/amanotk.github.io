@@ -269,22 +269,144 @@ textarea {
   margin: 0;
 }
 
+.timeline > li {
+  list-style: none;
+}
+
+.timeline > li > ul {
+  list-style: none;
+  padding: 0;
+  margin: 0.08rem 0 0;
+}
+
+.timeline > li > ul > li {
+  padding: 0;
+  margin: 0;
+  color: var(--md-default-fg-color--light);
+  line-height: 1.28;
+  font-size: 0.94rem;
+}
+
 .timeline strong {
   display: block;
   margin-bottom: 0.08rem;
   line-height: 1.28;
 }
 
-.timeline span {
-  display: block;
-  color: var(--md-default-fg-color--light);
-  line-height: 1.28;
-  font-size: 0.94rem;
-}
-
-.timeline span + span {
+.timeline > li > ul > li + li {
   margin-top: 0;
   font-size: 0.88rem;
+}
+
+:root {
+  --cv-period-width: 20%;
+  --cv-affiliation-width: 55%;
+  --cv-title-width: 25%;
+  --cv-cell-padding-y: 0.28rem;
+  --cv-cell-padding-x: 0.5rem;
+  --cv-affiliation-font-size: 1em;
+}
+
+.md-typeset .profile-section + .md-typeset__scrollwrap {
+  margin: 0 !important;
+}
+
+.md-typeset .profile-section + .md-typeset__scrollwrap .md-typeset__table {
+  display: block !important;
+  width: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.md-typeset .profile-section + table:not([class]),
+.md-typeset .profile-section + .md-typeset__scrollwrap .md-typeset__table > table {
+  display: table !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  table-layout: fixed !important;
+  color: inherit !important;
+  font-size: inherit !important;
+  font-family: inherit !important;
+  line-height: inherit !important;
+  border: 0 !important;
+  border-collapse: collapse !important;
+  border-spacing: 0 !important;
+  background: transparent !important;
+  box-shadow: none !important;
+  margin: 0 !important;
+}
+
+.md-typeset .profile-section + table:not([class]) thead,
+.md-typeset .profile-section + .md-typeset__scrollwrap .md-typeset__table > table thead {
+  display: none !important;
+}
+
+.md-typeset .profile-section + table:not([class]),
+.md-typeset .profile-section + table:not([class]) tbody,
+.md-typeset .profile-section + table:not([class]) tr,
+.md-typeset .profile-section + table:not([class]) th,
+.md-typeset .profile-section + table:not([class]) td,
+.md-typeset .profile-section + .md-typeset__scrollwrap .md-typeset__table > table,
+.md-typeset .profile-section + .md-typeset__scrollwrap .md-typeset__table > table tbody,
+.md-typeset .profile-section + .md-typeset__scrollwrap .md-typeset__table > table tr,
+.md-typeset .profile-section + .md-typeset__scrollwrap .md-typeset__table > table th,
+.md-typeset .profile-section + .md-typeset__scrollwrap .md-typeset__table > table td {
+  border: 0 !important;
+  outline: 0 !important;
+  box-shadow: none !important;
+  background: transparent !important;
+}
+
+.md-typeset .profile-section + table:not([class]) tbody tr:hover,
+.md-typeset .profile-section + .md-typeset__scrollwrap .md-typeset__table > table tbody tr:hover {
+  background: transparent !important;
+  box-shadow: none !important;
+}
+
+.md-typeset .profile-section + table:not([class]) th,
+.md-typeset .profile-section + table:not([class]) td,
+.md-typeset .profile-section + .md-typeset__scrollwrap .md-typeset__table > table th,
+.md-typeset .profile-section + .md-typeset__scrollwrap .md-typeset__table > table td {
+  min-width: 0 !important;
+  color: inherit !important;
+  font-size: inherit !important;
+  font-family: inherit !important;
+  font-weight: inherit !important;
+  line-height: inherit !important;
+  padding: var(--cv-cell-padding-y) var(--cv-cell-padding-x) var(--cv-cell-padding-y) 0 !important;
+  vertical-align: top !important;
+}
+
+.md-typeset .profile-section + table:not([class]) th:nth-child(1),
+.md-typeset .profile-section + table:not([class]) td:nth-child(1),
+.md-typeset .profile-section + .md-typeset__scrollwrap .md-typeset__table > table th:nth-child(1),
+.md-typeset .profile-section + .md-typeset__scrollwrap .md-typeset__table > table td:nth-child(1) {
+  width: var(--cv-period-width) !important;
+  white-space: nowrap;
+}
+
+.md-typeset .profile-section + table:not([class]) th:nth-child(2),
+.md-typeset .profile-section + table:not([class]) td:nth-child(2),
+.md-typeset .profile-section + .md-typeset__scrollwrap .md-typeset__table > table th:nth-child(2),
+.md-typeset .profile-section + .md-typeset__scrollwrap .md-typeset__table > table td:nth-child(2) {
+  width: var(--cv-affiliation-width) !important;
+  font-size: var(--cv-affiliation-font-size);
+}
+
+.md-typeset .profile-section + table:not([class]) th:nth-child(3),
+.md-typeset .profile-section + table:not([class]) td:nth-child(3),
+.md-typeset .profile-section + .md-typeset__scrollwrap .md-typeset__table > table th:nth-child(3),
+.md-typeset .profile-section + .md-typeset__scrollwrap .md-typeset__table > table td:nth-child(3) {
+  width: var(--cv-title-width) !important;
+}
+
+@media screen and (max-width: 760px) {
+  .md-typeset .profile-section + table:not([class]) th:nth-child(1),
+  .md-typeset .profile-section + table:not([class]) td:nth-child(1),
+  .md-typeset .profile-section + .md-typeset__scrollwrap .md-typeset__table > table th:nth-child(1),
+  .md-typeset .profile-section + .md-typeset__scrollwrap .md-typeset__table > table td:nth-child(1) {
+    white-space: normal;
+  }
 }
 
 .research-image {

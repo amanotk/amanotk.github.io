@@ -32,80 +32,28 @@
 
 ## 職歴 { #appointment .profile-section }
 
-<ul class="timeline">
-  <li>
-    <strong>教授</strong>
-    <span>東京大学大学院 理学系研究科 地球惑星科学専攻</span>
-    <span>2026年1月1日 - 現在</span>
-  </li>
-  <li>
-    <strong>准教授</strong>
-    <span>東京大学大学院 理学系研究科 地球惑星科学専攻</span>
-    <span>2016年8月1日 - 2025年12月31日</span>
-  </li>
-  <li>
-    <strong>助教</strong>
-    <span>東京大学大学院 理学系研究科 地球惑星科学専攻</span>
-    <span>2012年3月16日 - 2016年7月31日</span>
-  </li>
-  <li>
-    <strong>特任助教</strong>
-    <span>名古屋大学大学院 理学研究科 素粒子宇宙物理学専攻</span>
-    <span>2009年4月1日 - 2012年3月15日</span>
-  </li>
-  <li>
-    <strong>プロジェクト研究員</strong>
-    <span>名古屋大学 太陽地球環境研究所 総合解析部門</span>
-    <span>2008年4月1日 - 2009年3月31日</span>
-  </li>
-</ul>
+| 期間 | 所属 | 職名 |
+| --- | --- | --- |
+| 2026年1月 - 現在       | 東京大学大学院 理学系研究科 地球惑星科学専攻     | 教授               |
+| 2016年8月 - 2025年12月 | 東京大学大学院 理学系研究科 地球惑星科学専攻     | 准教授             |
+| 2012年3月 - 2016年7月  | 東京大学大学院 理学系研究科 地球惑星科学専攻     | 助教               |
+| 2009年4月 - 2012年3月  | 名古屋大学大学院 理学研究科 素粒子宇宙物理学専攻 | 特任助教           |
+| 2008年4月 - 2009年3月  | 名古屋大学 太陽地球環境研究所 総合解析部門       | プロジェクト研究員 |
 
 ## 学歴 { #education .profile-section }
 
-<ul class="timeline">
-  <li>
-    <strong>博士課程</strong>
-    <span>東京大学大学院 理学系研究科 地球惑星科学専攻 修了 博士(理学)</span>
-    <span>2008年3月</span>
-  </li>
-  <li>
-    <strong>修士課程</strong>
-    <span>東京大学大学院 理学系研究科 地球惑星科学専攻 修了</span>
-    <span>2005年3月</span>
-  </li>
-  <li>
-    <strong>学部</strong>
-    <span>東京大学 理学部 地球惑星物理学科 修了</span>
-    <span>2003年3月</span>
-  </li>
-  <li>
-    <strong>高校</strong>
-    <span>栃木県立栃木高等学校 普通科 修了</span>
-    <span>1999年3月</span>
-  </li>
-</ul>
+| 期間 | 所属 | 学位・課程 |
+| --- | --- | --- |
+| 2008年3月 | 東京大学大学院 理学系研究科 地球惑星科学専攻 | 博士修了 / 博士(理学) |
+| 2005年3月 | 東京大学大学院 理学系研究科 地球惑星科学専攻 | 修士修了              |
+| 2003年3月 | 東京大学 理学部 地球惑星物理学科             | 学士修了              |
+| 1999年3月 | 栃木県立栃木高等学校 普通科                  | 卒業                  |
 
 ## 受賞等 { #awards .profile-section }
 
-<ul class="timeline">
-  <li>
-    <strong>田中舘賞</strong>
-    <span>地球電磁気・地球惑星圏学会(SGEPSS)</span>
-    <span>2022年5月</span>
-  </li>
-  <li>
-    <strong>Young Researcher Award (under 40 yrs. old)</strong>
-    <span>Association of Asia Pacific Physical Societies, Division of Plasma Physics (AAPPS-DPP)</span>
-    <span>2018年11月</span>
-  </li>
-  <li>
-    <strong>大林奨励賞</strong>
-    <span>地球電磁気・地球惑星圏学会(SGEPSS)</span>
-    <span>2015年11月</span>
-  </li>
-  <li>
-    <strong>日本学術振興会 特別研究員(DC1)</strong>
-    <span>日本学術振興会</span>
-    <span>2005年4月</span>
-  </li>
-</ul>
+| 期間 | 授与機関 | 受賞・称号 |
+| --- | --- | --- |
+| 2022年5月  | 地球電磁気・地球惑星圏学会(SGEPSS)                                                     | 田中舘賞                                   |
+| 2018年11月 | Association of Asia Pacific Physical Societies, Division of Plasma Physics (AAPPS-DPP) | Young Researcher Award (under 40 yrs. old) |
+| 2015年11月 | 地球電磁気・地球惑星圏学会(SGEPSS)                                                     | 大林奨励賞                                 |
+| 2005年4月  | 日本学術振興会                                                                         | 特別研究員(DC1)                            |

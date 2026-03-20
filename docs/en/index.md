@@ -32,75 +32,27 @@ Takanobu Amano is interested in theoretical aspects of space and astrophysical p
 
 ## Appointments { #appointment .profile-section }
 
-<ul class="timeline">
-  <li>
-    <strong>Professor</strong>
-    <span>Department of Earth and Planetary Science, Graduate School of Science, The University of Tokyo</span>
-    <span>Jan. 2026 - Present</span>
-  </li>
-  <li>
-    <strong>Associate Professor</strong>
-    <span>Department of Earth and Planetary Science, Graduate School of Science, The University of Tokyo</span>
-    <span>Aug. 2016 - Dec. 2025</span>
-  </li>
-  <li>
-    <strong>Assistant Professor</strong>
-    <span>Department of Earth and Planetary Science, Graduate School of Science, The University of Tokyo</span>
-    <span>Mar. 2012 - Jul. 2016</span>
-  </li>
-  <li>
-    <strong>Designated Assistant Professor</strong>
-    <span>Division of Particle and Astrophysical Science, Graduate School of Science, Nagoya University</span>
-    <span>Apr. 2009 - Mar. 2012</span>
-  </li>
-  <li>
-    <strong>Postdoctoral Researcher</strong>
-    <span>Solar-Terrestrial Environment Laboratory, Nagoya University</span>
-    <span>Apr. 2008 - Mar. 2009</span>
-  </li>
-</ul>
+| Period | Affiliation | Title |
+| --- | --- | --- |
+| Jan. 2026 - Present   | Department of Earth and Planetary Science, Graduate School of Science, The University of Tokyo | Professor                      |
+| Aug. 2016 - Dec. 2025 | Department of Earth and Planetary Science, Graduate School of Science, The University of Tokyo | Associate Professor            |
+| Mar. 2012 - Jul. 2016 | Department of Earth and Planetary Science, Graduate School of Science, The University of Tokyo | Assistant Professor            |
+| Apr. 2009 - Mar. 2012 | Division of Particle and Astrophysical Science, Graduate School of Science, Nagoya University  | Designated Assistant Professor |
+| Apr. 2008 - Mar. 2009 | Solar-Terrestrial Environment Laboratory, Nagoya University                                    | Postdoctoral Researcher        |
 
 ## Education { #education .profile-section }
 
-<ul class="timeline">
-  <li>
-    <strong>Ph.D. degree</strong>
-    <span>Department of Earth and Planetary Science, Graduate School of Science, The University of Tokyo</span>
-    <span>Mar. 2008</span>
-  </li>
-  <li>
-    <strong>MS degree</strong>
-    <span>Department of Earth and Planetary Science, Graduate School of Science, The University of Tokyo</span>
-    <span>Mar. 2005</span>
-  </li>
-  <li>
-    <strong>BS degree</strong>
-    <span>Department of Earth and Planetary Physics, School of Science, The University of Tokyo</span>
-    <span>Mar. 2003</span>
-  </li>
-</ul>
+| Period | Affiliation | Degree |
+| --- | --- | --- |
+| Mar. 2008 | Department of Earth and Planetary Science, Graduate School of Science, The University of Tokyo | Ph.D. degree |
+| Mar. 2005 | Department of Earth and Planetary Science, Graduate School of Science, The University of Tokyo | MS degree    |
+| Mar. 2003 | Department of Earth and Planetary Physics, School of Science, The University of Tokyo          | BS degree    |
 
 ## Awards { #awards .profile-section }
 
-<ul class="timeline">
-  <li>
-    <strong>Tanakadate Award</strong>
-    <span>Society of Geomagnetism and Earth, Planetary and Space Sciences (SGEPSS)</span>
-    <span>May 2022</span>
-  </li>
-  <li>
-    <strong>Young Researcher Award (under 40 yrs. old)</strong>
-    <span>Association of Asia Pacific Physical Societies, Division of Plasma Physics (AAPPS-DPP)</span>
-    <span>Nov. 2018</span>
-  </li>
-  <li>
-    <strong>Obayashi Early Career Scientist Award</strong>
-    <span>Society of Geomagnetism and Earth, Planetary and Space Sciences (SGEPSS)</span>
-    <span>Nov. 2015</span>
-  </li>
-  <li>
-    <strong>JSPS Research Fellowship for Young Scientists (DC1)</strong>
-    <span>Japan Society for the Promotion of Science</span>
-    <span>Apr. 2005</span>
-  </li>
-</ul>
+| Period | Organization | Award |
+| --- | --- | --- |
+| May 2022  | Society of Geomagnetism and Earth, Planetary and Space Sciences (SGEPSS)               | Tanakadate Award                                    |
+| Nov. 2018 | Association of Asia Pacific Physical Societies, Division of Plasma Physics (AAPPS-DPP) | Young Researcher Award (under 40 yrs. old)          |
+| Nov. 2015 | Society of Geomagnetism and Earth, Planetary and Space Sciences (SGEPSS)               | Obayashi Early Career Scientist Award               |
+| Apr. 2005 | Japan Society for the Promotion of Science                                             | JSPS Research Fellowship for Young Scientists (DC1) |
