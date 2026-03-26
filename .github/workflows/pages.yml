@@ -6,6 +6,9 @@ on:
       - main
   workflow_dispatch:
 
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
 permissions:
   contents: read
   pages: write
@@ -32,6 +35,14 @@ jobs:
             texlive-plain-generic \
             texlive-luatex \
             texlive-latex-extra
+
+      - name: Cache LuaTeX font database
+        uses: actions/cache@v4
+        with:
+          path: |
+            ~/.texlive2023/texmf-var/luatex-cache
+            ~/.texlive2023/texmf-var/luatexja
+          key: ${{ runner.os }}-texlive2023-luatex-${{ hashFiles('CV/CV-Amano.tex', 'CV/latexmkrc', 'CV/publication.bib') }}
 
       - name: Set up uv
         uses: astral-sh/setup-uv@v6
