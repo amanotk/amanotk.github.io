@@ -8,3 +8,6 @@
 *.fls
 *.out
 *.out.ps
+*.pdf
+*.synctex.gz
+*.bak0

@@ -21,16 +21,17 @@ uv run mkdocs build --strict
 
 ## CV の更新
 
-CV を更新する場合は先に `CV/` 側で PDF を作り、公開用ファイルを `docs/assets/files/CV-Amano.pdf` に反映します。
+CV の PDF は生成物として扱います。ローカル確認や GitHub Pages デプロイ時には `CV/` 側で PDF を作り、公開用ファイル `docs/assets/files/CV-Amano.pdf` を生成します。PDF 自体は Git 管理しません。
 
 ```bash
-cd CV
-make
+make -C CV
 ```
+
+`make -C CV` は `CV/CV-Amano.tex` から PDF を生成し、サイト用の `docs/assets/files/CV-Amano.pdf` にコピーします。
 
 ## デプロイ
 
-`main` ブランチへの push で GitHub Actions が `mkdocs build --strict` を実行し、その成果物を GitHub Pages へデプロイします。
+`main` ブランチへの push で GitHub Actions が LaTeX 環境をセットアップして CV PDF を生成し、その後 `mkdocs build --strict` を実行して GitHub Pages へデプロイします。
 
 ## ディレクトリ構成
 

@@ -22,6 +22,16 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Install LaTeX dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends \
+            latexmk \
+            fonts-noto-core \
+            texlive-lang-japanese \
+            texlive-luatex \
+            texlive-latex-extra
+
       - name: Set up uv
         uses: astral-sh/setup-uv@v6
         with:
@@ -36,6 +46,9 @@ jobs:
 
       - name: Configure Pages
         uses: actions/configure-pages@v5
+
+      - name: Build CV PDF
+        run: make -C CV
 
       - name: Build site
         run: uv run mkdocs build --strict
