@@ -29,6 +29,7 @@ jobs:
             latexmk \
             fonts-noto-core \
             texlive-lang-japanese \
+            texlive-plain-generic \
             texlive-luatex \
             texlive-latex-extra
 
