@@ -1,3 +1,8 @@
+---
+hide:
+  - navigation
+---
+
 <div class="hero">
   <img src="../assets/images/portrait.jpg" alt="Portrait of Takanobu Amano">
   <div class="hero-copy">

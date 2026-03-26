@@ -1,3 +1,8 @@
+---
+hide:
+  - navigation
+---
+
 <div class="hero">
   <img src="../assets/images/portrait.jpg" alt="天野孝伸のポートレート">
   <div class="hero-copy">
