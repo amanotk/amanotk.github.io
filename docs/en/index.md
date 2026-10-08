@@ -33,7 +33,7 @@ Please refer to [Google Scholar](https://scholar.google.co.jp/citations?hl=ja&us
 
 ### Research interests
 
-Takanobu Amano is interested in theoretical aspects of space and astrophysical plasma phenomena. His major research interests include physics of collisionless shocks, high-energy particle acceleration and transport, linear and nonlinear theory for kinetic plasma instabilities, and numerical techniques for advanced kinetic and fluid plasma simulations.
+My research focuses on theoretical and numerical studies of space and astrophysical plasmas, from Earth's magnetosphere to high-energy astrophysical objects. I am particularly interested in the physics of collisionless shocks in non-relativistic and relativistic regimes, high-energy particle acceleration and transport, linear and nonlinear theory of kinetic plasma instabilities, and numerical methods for kinetic and fluid plasma simulations.
 
 ## Appointments { #appointment .profile-section }
 
