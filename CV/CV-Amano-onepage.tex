@@ -1,0 +1,115 @@
+% One-page CV (condensed from CV-Amano.tex)
+% Build: tectonic CV-Amano-onepage.tex  (or lualatex; no luatexja needed, English only)
+\documentclass[a4paper,fontsize=10pt]{scrartcl}
+\usepackage[english]{babel}
+\usepackage[protrusion=true]{microtype}
+\usepackage[svgnames]{xcolor}
+\usepackage[a4paper,top=1.1cm,bottom=1.0cm,left=1.6cm,right=1.6cm]{geometry}
+\usepackage{url}
+\usepackage[colorlinks=true,linkcolor=blue,urlcolor=blue]{hyperref}
+\usepackage{xurl}
+\usepackage{natbib}
+\usepackage{bibentry}
+\usepackage{xstring}
+
+\frenchspacing
+\pagestyle{empty}
+\renewcommand{\baselinestretch}{0.95}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+
+%%% Section styling (same look as CV-Amano.tex)
+\usepackage{sectsty}
+\sectionfont{\sectionrule{0pt}{0pt}{-5pt}{3pt}}
+\renewcommand{\thesection}{}
+\makeatletter
+\renewcommand{\section}{\@startsection{section}{1}{\z@}%
+  {-0.9ex \@plus -.5ex \@minus -.2ex}%
+  {0.55ex \@plus .2ex}%
+  {\normalfont\large\bfseries}}
+\makeatother
+
+%%% Macros
+\newcommand{\NewPart}[1]{\section*{\uppercase{#1}}}
+\newcommand{\NewSubPart}[1]{{\normalsize\bfseries #1}\par\vspace{0.2em}}
+
+\newcommand{\Entry}[2]{%
+\noindent\parbox[t]{9em}{#1}\hspace{0.5em}\parbox[t]{\dimexpr\textwidth-9.5em\relax}{#2}\par\vspace{0.22em}}
+
+\newcommand{\TalkEntry}[3]{\item #1, \textit{#2}, #3.}
+
+%%% bibliography helpers (from CV-Amano.tex)
+\makeatletter
+\renewcommand\BR@b@bibitem[2][]{\BR@bibitem[#1]{#2}\BR@c@bibitem{#2}}
+\DeclareOldFontCommand{\rm}{\normalfont\rmfamily}{\mathrm}
+\DeclareOldFontCommand{\sf}{\normalfont\sffamily}{\mathsf}
+\DeclareOldFontCommand{\tt}{\normalfont\ttfamily}{\mathtt}
+\DeclareOldFontCommand{\bf}{\normalfont\bfseries}{\mathbf}
+\DeclareOldFontCommand{\it}{\normalfont\itshape}{\mathit}
+\DeclareOldFontCommand{\sl}{\normalfont\slshape}{\@nomath\sl}
+\DeclareOldFontCommand{\sc}{\normalfont\scshape}{\@nomath\sc}
+\makeatother
+\def\FormatName#1{%
+  \IfSubStr{#1}{Amano}{\textbf{\underline{#1}}}{#1}%
+}
+
+%%% fonts
+\usepackage{fontspec}
+\setmainfont[AutoFakeSlant=0.25]{Noto Serif}
+\setsansfont[AutoFakeSlant=0.25]{Noto Sans}
+
+\begin{document}
+
+%%% Header
+\begin{flushright}
+	{\Huge \textbf{Takanobu Amano}}\\[0.3em]
+	{\large Professor}\\
+	Department of Earth and Planetary Science, Graduate School of Science, The University of Tokyo\\
+	Room 803, Faculty of Science Bldg. 1, 7-3-1 Hongo, Bunkyo-ku, Tokyo, 113-0033, JAPAN\\
+	E-mail: amano@eps.s.u-tokyo.ac.jp \quad Phone: +81--3--5841--1921 \quad Website: \url{https://amanotk.github.io/}
+\end{flushright}
+
+%%% Research Interests
+\NewPart{Research Interests}
+My research focuses on theoretical and numerical studies of space and astrophysical plasmas, from Earth's magnetosphere to high-energy astrophysical objects. I am particularly interested in the physics of collisionless shocks in non-relativistic and relativistic regimes, high-energy particle acceleration and transport, linear and nonlinear theory of kinetic plasma instabilities, and numerical methods for kinetic and fluid plasma simulations.
+
+%%% Appointments
+\NewPart{Appointments}
+\Entry{2026 -- present}{\textbf{Professor}, The University of Tokyo (Dept. of Earth and Planetary Science)}
+\Entry{2016 -- 2025}{\textbf{Associate Professor}, The University of Tokyo (Dept. of Earth and Planetary Science)}
+\Entry{2012 -- 2016}{\textbf{Assistant Professor}, The University of Tokyo (Dept. of Earth and Planetary Science)}
+\Entry{2009 -- 2012}{\textbf{Designated Assistant Professor}, Nagoya University (Div. of Particle and Astrophysical Science)}
+\Entry{2008 -- 2009}{\textbf{Postdoctoral Researcher}, Nagoya University (Solar-Terrestrial Environment Laboratory)}
+
+%%% Education
+\NewPart{Education}
+\Entry{2005 -- 2008}{\textbf{Ph.D}, The University of Tokyo (Dept. of Earth and Planetary Science)}
+\Entry{2003 -- 2005}{\textbf{M.S.}, The University of Tokyo (Dept. of Earth and Planetary Science)}
+\Entry{1999 -- 2003}{\textbf{B.S.}, The University of Tokyo (Dept. of Earth and Planetary Physics)}
+
+%%% Awards
+\NewPart{Awards}
+\Entry{2022}{Tanakadate Award, Society of Geomagnetism and Earth, Planetary and Space Sciences (SGEPSS)}
+\Entry{2018}{Young Researcher Award (under 40 yrs. old), Association of Asia Pacific Physical Societies, Division of Plasma Physics (AAPPS-DPP)}
+\Entry{2015}{Obayashi Early Career Scientist Award, SGEPSS}
+\Entry{2005}{JSPS Research Fellowship for Young Scientists (DC1)}
+
+%%% Publications
+\NewPart{Selected Publications}
+Author of 76 refereed journal articles (2007--2026) and 1 book chapter, with numerous invited talks at international conferences. Full list of publications: \href{https://scholar.google.co.jp/citations?hl=ja&user=o23rFB8AAAAJ&view_op=list_works&sortby=pubdate}{Google Scholar}.
+\bibliographystyle{chicago-custom}
+\nobibliography{publication}
+\begin{enumerate}\small
+	\setlength{\itemsep}{0.15em}
+	\item \bibentry{Amano2024a}
+	\item \bibentry{Amano2022a}
+	\item \bibentry{Amano2022b}
+	\item \bibentry{Amano2020a}
+	\item \bibentry{Amano2018a}
+	\item \bibentry{Amano2011b}
+	\item \bibentry{Amano2010a}
+	\item \bibentry{Amano2009c}
+	\item \bibentry{Amano2007a}
+\end{enumerate}
+
+\end{document}
