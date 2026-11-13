@@ -31,7 +31,7 @@ make -C CV
 
 ## デプロイ
 
-`main` ブランチへの push で GitHub Actions が LaTeX 環境をセットアップして CV PDF を生成し、その後 `mkdocs build --strict` を実行して GitHub Pages へデプロイします。
+`main` ブランチへの push で GitHub Actions が LaTeX 環境をセットアップして CV PDF を生成し、その後 `mkdocs build --strict` を実行して GitHub Pages へデプロイします。CV PDF のビルド前に、公開 Zotero グループから `publication.bib` をキーなしで再生成します（失敗時は commit 済みの bib を使用）。
 
 ## ディレクトリ構成
 

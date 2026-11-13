@@ -28,11 +28,16 @@ Usage (Web API; a private library needs a read-only API key):
 Usage (no key; talks to the Zotero desktop app on this machine):
     python3 zotero_to_bib.py --local
 
+Usage (no key; reads a public group library instead of the personal
+library -- this is what CI does, with the "Publications of Takanobu
+Amano" group):
+    python3 zotero_to_bib.py --group 6761476
+
 The Web API key is taken from the environment only; create one at
 https://www.zotero.org/settings/keys . A private library cannot be
 read without a key (the API answers 403), so without a key either use
 --local with the Zotero desktop app running (Zotero 7's local API
-needs no key), or make the library public.
+needs no key), or --group with a public group library.
 The user ID defaults to the library owner's and can be overridden with
 --user-id or the ZOTERO_USER_ID environment variable.
 """
@@ -92,7 +97,7 @@ def api_get(path, api_key, accept_json=True):
                 "the Zotero API refused an unauthenticated request (403): "
                 "a private library needs a read-only API key in "
                 "ZOTERO_API_KEY, or use --local with the Zotero desktop "
-                "app running") from exc
+                "app running, or --group with a public group") from exc
         if exc.code in (400, 403) and BASE != API_BASE:
             raise RuntimeError(
                 "the Zotero local API refused the request: is the "
@@ -120,7 +125,7 @@ def is_owner_creator(creator):
     return (creator.get("name") or "") in OWNER_SINGLE_NAMES
 
 
-def select_publication_keys(user_id, api_key):
+def select_publication_keys(prefix, api_key):
     """Return (item keys, date lookup) for the publication set.
 
     The date lookup maps normalised DOI and normalised title to the
@@ -131,7 +136,7 @@ def select_publication_keys(user_id, api_key):
         start, total = 0, None
         while total is None or start < total:
             path = (
-                f"/users/{user_id}/items/top?format=json"
+                f"{prefix}/items/top?format=json"
                 f"&itemType={item_type}&limit=100&start={start}"
             )
             payload, total = api_get(path, api_key)
@@ -176,12 +181,12 @@ def month_macro(date_str):
     return None
 
 
-def fetch_bibtex(user_id, api_key, keys):
+def fetch_bibtex(prefix, api_key, keys):
     chunks = []
     for i in range(0, len(keys), 50):
         batch = ",".join(keys[i:i + 50])
         path = (
-            f"/users/{user_id}/items?format=bibtex"
+            f"{prefix}/items?format=bibtex"
             f"&itemKey={urllib.parse.quote(batch, safe=',')}"
         )
         body, _ = api_get(path, api_key, accept_json=False)
@@ -394,22 +399,32 @@ def main():
     parser.add_argument("--local", action="store_true",
                         help="use the Zotero desktop app's local API "
                              "(no API key; Zotero must be running)")
+    parser.add_argument("--group", metavar="GROUP_ID",
+                        help="read a public group library anonymously "
+                             "(no API key) instead of the personal library")
     args = parser.parse_args()
 
     global BASE
     api_key = os.environ.get("ZOTERO_API_KEY")
-    if args.local:
-        BASE = LOCAL_API_BASE
-        args.user_id = "0"
+    if args.group:
+        prefix = f"/groups/{args.group}"
         api_key = None
-    elif not api_key:
-        print("note: no ZOTERO_API_KEY set; trying anonymously "
-              "(works only if the library is public)", file=sys.stderr)
+        print(f"note: reading public group {args.group} anonymously",
+              file=sys.stderr)
+    elif args.local:
+        BASE = LOCAL_API_BASE
+        prefix = "/users/0"
+        api_key = None
+    else:
+        prefix = f"/users/{args.user_id}"
+        if not api_key:
+            print("note: no ZOTERO_API_KEY set; trying anonymously "
+                  "(works only if the library is public)", file=sys.stderr)
 
     try:
-        keys, date_lookup = select_publication_keys(args.user_id, api_key)
+        keys, date_lookup = select_publication_keys(prefix, api_key)
         print(f"selected {len(keys)} items from Zotero", file=sys.stderr)
-        bib_text = fetch_bibtex(args.user_id, api_key, keys)
+        bib_text = fetch_bibtex(prefix, api_key, keys)
     except RuntimeError as exc:
         print(f"error: {exc}", file=sys.stderr)
         return 1

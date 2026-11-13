@@ -48,6 +48,13 @@ Zotero を更新してからスクリプトで再生成する．
 キーなしで読めない（403 になる）ので，キーを作りたくない場合は
 こちらを使う．
 
+GitHub Actions では，公開グループ「Publications of Takanobu Amano」
+（グループ ID 6761476）から `python3 zotero_to_bib.py --group 6761476`
+でキーなしに再生成してから PDF をビルドする．取得に失敗した場合は
+リポジトリに commit されている publication.bib をそのまま使う．
+グループ側は個人ライブラリのコピーなので，新しい論文は先に
+グループへ入れておくこと．
+
 既存の citation key は DOI とタイトルで照合して引き継ぐので，
 `CV-Amano.tex` の `\bibentry{...}` はそのまま使える．
 新しい論文を Zotero に追加したら，tex 側に `\bibentry{キー}` を
