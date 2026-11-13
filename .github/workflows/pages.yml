@@ -59,6 +59,11 @@ jobs:
       - name: Configure Pages
         uses: actions/configure-pages@v5
 
+      - name: Regenerate publication.bib from the public Zotero group
+        run: |
+          python3 CV/zotero_to_bib.py --group 6761476 || \
+            echo "::warning::Zotero regeneration failed; using the committed publication.bib"
+
       - name: Build CV PDF
         run: make -C CV
 
