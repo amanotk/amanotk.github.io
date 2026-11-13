@@ -24,7 +24,7 @@ hide:
 
 このページは東京大学 [大学院理学系研究科](https://www.s.u-tokyo.ac.jp/) [地球惑星科学専攻](http://www.eps.s.u-tokyo.ac.jp/) [宇宙惑星科学講座](http://www-space.eps.s.u-tokyo.ac.jp/) の教授、天野孝伸のページです。
 
-私の過去の研究について詳細を知りたい方は [Google Scholar](https://scholar.google.co.jp/citations?hl=ja&user=o23rFB8AAAAJ&view_op=list_works&sortby=pubdate) または [履歴書](../assets/files/CV-Amano.pdf) をご覧ください。
+私の過去の研究について詳細を知りたい方は [Google Scholar](https://scholar.google.co.jp/citations?hl=ja&user=o23rFB8AAAAJ&view_op=list_works&sortby=pubdate)、[researchmap](https://researchmap.jp/amanotk) または [履歴書](../assets/files/CV-Amano.pdf) をご覧ください。
 
 ### 研究分野
 
